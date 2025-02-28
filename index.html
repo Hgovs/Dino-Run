@@ -1,1 +1,24 @@
-index
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dino Puzzle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="dino" class="dino"></div>
+    <div id="obstacle" class="obstacle"></div>
+  </div>
+  <div id="puzzle-container" class="hidden">
+    <div class="puzzle">
+      <h3>Solve the puzzle</h3>
+      <button onclick="solvePuzzle()">Solve</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
+
